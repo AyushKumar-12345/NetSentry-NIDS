@@ -1,0 +1,9 @@
+{
+  "interface": null,
+  "alert_log": "logs/nids_alerts.json",
+  "syn_flood_threshold": 20,
+  "syn_flood_window_seconds": 2.0,
+  "port_scan_threshold": 15,
+  "port_scan_window_seconds": 3.0,
+  "trusted_dns_servers": ["8.8.8.8", "8.8.4.4", "1.1.1.1", "192.168.1.1"]
+}
