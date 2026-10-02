@@ -162,7 +162,7 @@ def main():
     parser = argparse.ArgumentParser(description="NetSentry-NIDS Engine")
     parser.add_argument("--config", default="config/config.json", help="Path to config file")
     parser.add_argument("--iface", default=None, help="Network interface")
-    parser.add_argument("--count", type=int, default=0, help="Packet capture limit (0 = infinite)")
+    parser.add_argument("--count", type=int, default=0, help="Packet capture limit")
     args = parser.parse_args()
 
     cfg = load_config(args.config)
